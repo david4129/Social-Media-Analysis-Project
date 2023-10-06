@@ -50,7 +50,7 @@ with st.container():
 #Distribution Of Posts Over Time
 with st.container():
     st.subheader('Distribution Of Posts Over Time')
-    st.image('https://github.com/david4129/Social-Media-Analysis-Project/blob/main/Images/eda1.JPG?raw=true', caption='', use_column_width=True)
+    st.image('https://raw.githubusercontent.com/david4129/Social-Media-Analysis-Project/main/Images/eda1.JPG?token=GHSAT0AAAAAACH6UOH3OVYLMM3AOBMZYM6WZJAGN5A', caption='', use_column_width=True)
 
 #Count Plot of Posts By Network
 with st.container():
