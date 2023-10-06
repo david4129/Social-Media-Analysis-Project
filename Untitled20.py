@@ -55,18 +55,15 @@ with st.container():
 #Count Plot of Posts By Network
 with st.container():
     st.subheader('Count Plot of Posts By Network')
-    image1 = Image.open(r"C:\Users\DELL\Downloads\Social Media Analysis\Social-Media-Analysis-Project\Images\eda2.JPG")
-    st.image(image1, caption='', use_column_width=True)
+    st.image('https://raw.githubusercontent.com/david4129/Social-Media-Analysis-Project/main/Images/eda2.JPG?token=GHSAT0AAAAAACH6UOH34TNL4QWCYROTZ7BKZJAG4XA', caption='', use_column_width=True)
 
 #Are There Any Trends Over Time?
 with st.container():
     st.subheader('Count Plot of Posts By Network')
-    image2 = Image.open(r"C:\Users\DELL\Downloads\Social Media Analysis\Social-Media-Analysis-Project\Images\eda3.JPG")
-    st.image(image2, caption='', use_column_width=True)
+    st.image('https://raw.githubusercontent.com/david4129/Social-Media-Analysis-Project/main/Images/eda3.JPG?token=GHSAT0AAAAAACH6UOH3P6B7QGY2IY3HKCQUZJAG52A', caption='', use_column_width=True)
 
     st.subheader('Count Plot of Posts By Network')
-    image3 = Image.open(r"C:\Users\DELL\Downloads\Social Media Analysis\Social-Media-Analysis-Project\Images\eda3.1.JPG")
-    st.image(image3, caption='', use_column_width=True)
+    st.image('https://raw.githubusercontent.com/david4129/Social-Media-Analysis-Project/main/Images/eda3.1.JPG?token=GHSAT0AAAAAACH6UOH3BN235H3PQSQCWNKWZJAG6TA', caption='', use_column_width=True)
 
 #Is The Data Stationary Or Not
 with st.container():
@@ -81,13 +78,11 @@ with st.container():
 with st.container():
     st.header('Analysis and Insights')
     st.subheader('Top Posts By Engagement Rate')
-    image4 = Image.open(r"C:\Users\DELL\Downloads\Social Media Analysis\Social-Media-Analysis-Project\Images\Top Posts By Engagement Rates.JPG")
-    st.image(image4, caption='', use_column_width=True)
+    st.image('https://raw.githubusercontent.com/david4129/Social-Media-Analysis-Project/main/Images/Top%20Posts%20By%20Engagement%20Rates.JPG?token=GHSAT0AAAAAACH6UOH36ZDDU6INU4ZJFCRUZJAHAVQ', caption='', use_column_width=True)
 
 with st.container():
     st.subheader('Which Social Media Network Performs Best?')
-    image5 = Image.open(r"C:\Users\DELL\Downloads\Social Media Analysis\Social-Media-Analysis-Project\Images\Question2.JPG")
-    st.image(image5, caption='', use_column_width=True)
+    st.image('https://raw.githubusercontent.com/david4129/Social-Media-Analysis-Project/main/Images/Question2.JPG?token=GHSAT0AAAAAACH6UOH3ZWOHQ7MWQJIVIKUSZJAHBPA', caption='', use_column_width=True)
 
 # Create two columns for layout
 with st.container():
@@ -96,49 +91,39 @@ with st.container():
     st.subheader('When Are Peak Engagement Times?')
 
     with col1:
-        image6 = Image.open(r"C:\Users\DELL\Downloads\Social Media Analysis\Social-Media-Analysis-Project\Images\Question3.JPG")
-        st.image(image6, caption='', use_column_width=True)
+        st.image('https://raw.githubusercontent.com/david4129/Social-Media-Analysis-Project/main/Images/Question3.JPG?token=GHSAT0AAAAAACH6UOH2FFAXIEXBNCJTILAIZJAHDBQ', caption='', use_column_width=True)
 
     with col2:
-        image7 = Image.open(r"C:\Users\DELL\Downloads\Social Media Analysis\Social-Media-Analysis-Project\Images\Question3.2.JPG")
-        st.image(image7, caption='', use_column_width=True)
+        st.image('https://raw.githubusercontent.com/david4129/Social-Media-Analysis-Project/main/Images/Question3.2.JPG?token=GHSAT0AAAAAACH6UOH3ZXTIH7J3VY6Y2ZAAZJAHD2A', caption='', use_column_width=True)
 
 with st.container():
     st.subheader('What Is the Relationship Between Impressions and Engagement?')
-    image8 = Image.open(r"C:\Users\DELL\Downloads\Social Media Analysis\Social-Media-Analysis-Project\Images\Question4.JPG")
-    st.image(image8, caption='', use_column_width=True)
+    st.image('https://raw.githubusercontent.com/david4129/Social-Media-Analysis-Project/main/Images/Question4.JPG?token=GHSAT0AAAAAACH6UOH3VGPKUF2YJ747YNLIZJAHFEA', caption='', use_column_width=True)
 
 with st.container():
     st.subheader('Which Content Types Receive the Most Shares?')
-    image9 = Image.open(r"C:\Users\DELL\Downloads\Social Media Analysis\Social-Media-Analysis-Project\Images\Question5.JPG")
-    st.image(image9, caption='', use_column_width=True)
+    st.image('https://raw.githubusercontent.com/david4129/Social-Media-Analysis-Project/main/Images/Question5.JPG?token=GHSAT0AAAAAACH6UOH3CAFI2R7HFQTLGJEWZJAHGGA', caption='', use_column_width=True)
 
 with st.container():
     st.subheader('How Effective Are Hashtags in Driving Engagement?')
-    image10 = Image.open(r"C:\Users\DELL\Downloads\Social Media Analysis\Social-Media-Analysis-Project\Images\Question6.JPG")
-    st.image(image10, caption='', use_column_width=True)
+    st.image('https://raw.githubusercontent.com/david4129/Social-Media-Analysis-Project/main/Images/Question6.JPG?token=GHSAT0AAAAAACH6UOH3UMCTULEDXNVC5LTCZJAHJHA', caption='', use_column_width=True)
 
 with st.container():
     st.subheader('Is There a Seasonal or Periodic Pattern in Engagement?')
-    image11 = Image.open(r"C:\Users\DELL\Downloads\Social Media Analysis\Social-Media-Analysis-Project\Images\Question7.3.JPG")
-    st.image(image11, caption='', use_column_width=True)
+    st.image('https://raw.githubusercontent.com/david4129/Social-Media-Analysis-Project/main/Images/Question7.3.JPG?token=GHSAT0AAAAAACH6UOH2TY5JT3EN772MJQ64ZJAHH4A', caption='', use_column_width=True)
 
 with st.container():
-    image12 = Image.open(r"C:\Users\DELL\Downloads\Social Media Analysis\Social-Media-Analysis-Project\Images\Question7.JPG")
-    st.image(image12, caption='', use_column_width=True)
+    st.image('https://raw.githubusercontent.com/david4129/Social-Media-Analysis-Project/main/Images/Question7.JPG?token=GHSAT0AAAAAACH6UOH2UGRYAVCA3SCDDIPKZJAHKGQ', caption='', use_column_width=True)
 
 with st.container():
-    image13 = Image.open(r"C:\Users\DELL\Downloads\Social Media Analysis\Social-Media-Analysis-Project\Images\Question7.2.JPG")
-    st.image(image13, caption='', use_column_width=True)
+    st.image('https://raw.githubusercontent.com/david4129/Social-Media-Analysis-Project/main/Images/Question7.2.JPG?token=GHSAT0AAAAAACH6UOH3YMVRM67BB4Z5ZP6SZJAHK6A', caption='', use_column_width=True)
 
 with st.container():
     st.subheader('What Is the Overall Engagement Rate and How Does It Vary Across Platforms?')
-    image14 = Image.open(r"C:\Users\DELL\Downloads\Social Media Analysis\Social-Media-Analysis-Project\Images\Question8.JPG")
-    st.image(image14, caption='', use_column_width=True)
+    st.image('https://raw.githubusercontent.com/david4129/Social-Media-Analysis-Project/main/Images/Question8.JPG?token=GHSAT0AAAAAACH6UOH2EDG57ZQPQ5JOO4ZAZJAHMFA', caption='', use_column_width=True)
 
 with st.container():
     st.subheader('How Effective Are Hashtags in Driving Engagement?')
-    image15 = Image.open(r"C:\Users\DELL\Downloads\Social Media Analysis\Social-Media-Analysis-Project\Images\Question9.JPG")
-    st.image(image15, caption='', use_column_width=True)
+    st.image('https://raw.githubusercontent.com/david4129/Social-Media-Analysis-Project/main/Images/Question9.JPG?token=GHSAT0AAAAAACH6UOH2VNTA6VF633C4J36EZJAHMXA', caption='', use_column_width=True)
 
 
