@@ -23,6 +23,7 @@ from statsmodels.tsa.stattools import adfuller
 from scipy.stats import spearmanr
 import dataframe_image as dfi
 from PIL import Image
+from pathlib import Path
 
 # Load pre-processed data
 df = pd.read_csv('cleaned_df.csv')
@@ -50,12 +51,14 @@ with st.container():
 #Distribution Of Posts Over Time
 with st.container():
     st.subheader('Distribution Of Posts Over Time')
-    st.image(Image.open('https://raw.githubusercontent.com/david4129/Social-Media-Analysis-Project/main/Images/eda1.JPG?token=GHSAT0AAAAAACH6UOH3OVYLMM3AOBMZYM6WZJAGN5A'), caption='', use_column_width=True)
+    image_path = Path("C:\Users\DELL\Downloads\Social Media Analysis\Social-Media-Analysis-Project\Images\eda1.JPG")
+    st.image(image_path, caption='', use_column_width=True)
 
 #Count Plot of Posts By Network
 with st.container():
     st.subheader('Count Plot of Posts By Network')
-    st.image(Image.open('https://raw.githubusercontent.com/david4129/Social-Media-Analysis-Project/main/Images/eda2.JPG?token=GHSAT0AAAAAACH6UOH34TNL4QWCYROTZ7BKZJAG4XA'), caption='', use_column_width=True)
+    image_path = Path("C:\Users\DELL\Downloads\Social Media Analysis\Social-Media-Analysis-Project\Images\eda2.JPG")
+    st.image(Image.open(image_path), caption='', use_column_width=True)
 
 #Are There Any Trends Over Time?
 with st.container():
